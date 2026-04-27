@@ -1,0 +1,36 @@
+.contact {
+  padding: 40px;
+  background: #fff4d6;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 100px;
+  padding-left: 80px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 12px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background: #1976d2;
+  color: white;
+  border: none;
+}
+
+.back {
+  margin-top: 20px;
+  display: inline-block;
+  color: blue;
+  text-decoration: none;
+}
