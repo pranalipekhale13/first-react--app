@@ -1,7 +1,7 @@
 import { createRoot } from "react-dom/client";
-import Contact from "./Contact";
-import About from "./About";
-import Home from "./Home";
+import Contact from "./contact";
+import About from "./about";
+import Home from "./home";
 
 const root = createRoot(document.getElementById("root"));
 
