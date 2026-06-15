@@ -10,7 +10,7 @@ function Home() {
           A modern web application built with React and Vite, featuring manual JavaScript routing for fast navigation.
         </p>
         <div className="hero-buttons">
-          <a href="/about" className="btn btn-primary">Learn More</a>
+          <a href="/aboutnpm run " className="btn btn-primary">Learn More</a>
           <a href="/contact" className="btn btn-secondary">Get in Touch</a>
         </div>
       </header>
