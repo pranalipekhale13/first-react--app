@@ -34,8 +34,8 @@ function About() {
       </div>
 
       <div className="navigation">
-        <a href="#home" className="nav-link">← Back to Home</a>
-        <a href="#contact" className="nav-link">Contact Us →</a>
+        <a href="/" className="nav-link">← Back to Home</a>
+        <a href="/contact" className="nav-link">Contact Us →</a>
       </div>
     </div>
   );

@@ -10,8 +10,8 @@ function Home() {
           A modern web application built with React and Vite, featuring manual JavaScript routing for fast navigation.
         </p>
         <div className="hero-buttons">
-          <a href="#about" className="btn btn-primary">Learn More</a>
-          <a href="#contact" className="btn btn-secondary">Get in Touch</a>
+          <a href="/about" className="btn btn-primary">Learn More</a>
+          <a href="/contact" className="btn btn-secondary">Get in Touch</a>
         </div>
       </header>
 
@@ -44,8 +44,8 @@ function Home() {
           Explore our pages to learn more about our team and how to get in touch.
         </p>
         <div className="navigation-links">
-          <a href="#about" className="nav-link">About Us →</a>
-          <a href="#contact" className="nav-link">Contact →</a>
+          <a href="/about" className="nav-link">About Us →</a>
+          <a href="/contact" className="nav-link">Contact →</a>
         </div>
       </section>
     </div>

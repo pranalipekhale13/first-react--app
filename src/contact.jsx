@@ -29,7 +29,7 @@ function Contact() {
         <button type="submit">Submit</button>
       </form>
 
-      <a href="#home" className="back"> ← Back to Home</a>
+      <a href="/" className="back"> ← Back to Home</a>
     </div>
   );
 }
