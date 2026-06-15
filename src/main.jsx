@@ -1,26 +1,17 @@
+import { createRoot } from "react-dom/client";
+import Contact from "./Contact";
+import About from "./About";
+import Home from "./Home";
 
-import React from "react";
-import ReactDOM from "react-dom/client";
-import Navigation from "./Navigation";
-import Router from "./Router";
-import "./index.css";
+const root = createRoot(document.getElementById("root"));
 
-/**
- * Main App Component
- * Combines Navigation and Router for complete app structure
- */
-function App() {
-  return (
-    <div className="app">
-      <Navigation />
-      <main className="main-content">
-        <Router />
-      </main>
-    </div>
-  );
+const Pathname = window.location.pathname;
+console.log("Current Pathname: ", Pathname);
+
+if (Pathname === "/") {
+  root.render(<Home />);
+} else if (Pathname === "/about") {
+  root.render(<About />);
+} else if (Pathname === "/contact") {
+  root.render(<Contact />);
 }
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
-
-export default App;
